@@ -121,37 +121,41 @@
 
 
 
-    /* PLAY SECTION RESPONSIVE */
+    /* ----------------------PLAY SECTION RESPONSIVE------------------------ */
 
     .play-section {
         flex-direction: column;
     }
+
     .play-image {
-        margin: 27px 0;
+        margin-top: 27px;
         text-align: center;
     }
-    
-    .play-image  img {
+
+    .play-image img {
         width: 235px;
         height: auto;
     }
-    
+
     .badge img {
         width: 32%;
         position: relative;
         right: 113px;
         bottom: 110px;
     }
+
     .play-content {
         text-align: center;
         padding: 1rem;
     }
+
     .play-content h2 {
         font-weight: 700;
         margin: 12px 0;
         font-size: 2.5rem;
     }
-    
+
+    /* ----------------------PLAY SECTION RESPONSIVE------------------------ */
 
 
 
@@ -159,20 +163,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* CAREER RESPONSIVE */
+    /* -----------------------CAREER RESPONSIVE------------------ */
 
     .career-main {
         flex-direction: column;
@@ -203,24 +194,36 @@
     /* CAREER RESPONSIVE END */
 
 
-    /* .game-logo img {
-        width: 31%;
-    }
-
+    /* game name */
     .game-items {
         display: grid;
-
         grid-template-columns: repeat(3, 1fr);
-    } */
+        margin: 35px 15px;
+    }
 
 
 
+    .game-logo img {
+        width: 45px;
+    }
+
+    .game-logo {
+        padding: 0 0;
+        margin-left: 0;
+
+    }
+
+    .game-logo p {
+
+        font-size: 14px;
+        margin-left: 6px;
+        font-weight: 600;
+    }
 
 
 
+    /* ------------------footer section----------------------- */
 
-
-    /* footer section */
     .footer-menu ul {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -321,20 +324,24 @@
     .play-content {
         padding: 5rem 3rem;
     }
+
     .badge img {
         width: 44%;
         position: relative;
         right: 132px;
         bottom: 124px;
     }
+
     .mini-img img {
-       
+
         height: auto;
     }
-    .play-image> img {
+
+    .play-image>img {
         width: 302px;
         height: auto;
     }
+
     .play-image {
         margin: 54px 21px;
         text-align: center;
@@ -365,4 +372,14 @@
     .footer-content p {
         padding: 20px;
     }
+
+
+
+    .game-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+
 }

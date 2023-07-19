@@ -388,23 +388,34 @@ nav {
 
 
 /* -------------------------GAMES NAME SECTION-------------------------- */
-
-/* 
-.game-items{
+.game-items {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    margin: 82px 15px;
 }
 .game-logo {
     display: flex;
-    padding: 4px 33px;
+    margin-bottom: 41px;
+    padding: 2px 3px;
+    margin-left: 40px;
     align-items: center;
+    border: 2px solid transparent;
+    transition: ;
+    cursor: pointer;
 }
-
-.game-logo p{
-
-} */
+.game-logo p {
+    margin: 0 7px;
+    font-weight: 600;
+}
+.game-logo:hover{
+    border: 2px solid #F948B2;
+    border-radius: 35px;
+}
+.game-logo:hover p{
+    color: #F948B2;
+}
 
 /* -------------------------GAMES NAME SECTION-------------------------- */
 
@@ -423,7 +434,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-
+margin-bottom: 10px;
     color: white;
 }
 
@@ -447,6 +458,8 @@ nav {
 
 .footer-menu ul {
     display: flex;
+    list-style: none;
+    color: white;
     justify-content: center;
 }
 .footer-menu-three ul {
@@ -475,6 +488,10 @@ nav {
     padding: 18px;
     font-size: 15px;
     list-style: none;
+}
+
+.menu-two> ul li .fab{
+    font-size: 25px;
 }
 
 
