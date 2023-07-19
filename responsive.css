@@ -1,0 +1,150 @@
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+
+
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li a {
+        display: block;
+        padding: 20px 0;
+    }
+
+
+
+    .banner-image img {
+        max-width: 344px;
+    }
+
+    .banner-content {
+        background-image: url('images/Group\ 14.png');
+        padding: 17px 4px;
+    }
+
+    .button {
+        text-align: center;
+    }
+
+    .banner-content p {
+        margin-left: 84px;
+        font-size: 16px;
+
+    }
+
+    .banner {
+        background-image: none;
+    }
+
+    .banner-main {
+
+        flex-direction: column-reverse;
+    }
+
+    .banner-content h1 {
+        font-size: 55px;
+
+
+        text-align: center;
+    }
+
+    .banner-content h2 {
+
+        text-align: center;
+        font-size: 29px;
+
+    }
+
+
+
+    /* gamers section responsive */
+
+
+    .gamers {
+        flex-direction: column;
+        padding: 6px 0;
+    }
+
+    .gamer-content {
+        text-align: center;
+
+    }
+
+    .gamer-image img {
+        width: 368px;
+    }
+
+    .gamer-content p {
+
+        font-size: .80rem;
+    }
+
+    .gamer-content h2 {
+        font-size: 2.1rem;
+    }
+
+    .gFooter h5 {
+        font-size: 0.90rem;
+
+    }
+
+}
+
+
+
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+
+
+    .banner-image img {
+        max-width: 381px;
+    }
+
+    .banner-main {
+        padding: 45px 25px;
+
+    }
+
+    .banner-content h2 {
+        font-size: 35px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .banner-content h1 {
+        font-size: 64px;
+
+    }
+
+
+
+
+
+
+    /* --------gamer responsive------------- */
+    .gamer-content {
+
+        margin-right: 27px;
+    }
+    .gamer-content p {
+       
+        font-size: 17px;
+    }
+    .gamer-image img {
+        width: 414px;
+    }
+
+}
