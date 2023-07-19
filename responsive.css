@@ -1,8 +1,6 @@
 @media screen and (max-width:576px) {
     nav {
         flex-direction: column;
-
-
     }
 
     .menu ul {
@@ -22,11 +20,15 @@
 
     .banner-content {
         background-image: url('images/Group\ 14.png');
-        padding: 17px 4px;
+        padding: 23px 27px;
     }
 
     .button {
         text-align: center;
+    }
+
+    .menu-button {
+        padding: 0 13px;
     }
 
     .banner-content p {
@@ -79,7 +81,7 @@
 
     .gamer-content p {
 
-        font-size: .80rem;
+        font-size: 1rem;
     }
 
     .gamer-content h2 {
@@ -87,11 +89,163 @@
     }
 
     .gFooter h5 {
-        font-size: 0.90rem;
+        font-size: 1.2rem;
+    }
+
+
+    /* ----------ONLINE GAMES SECTION CSS---------------  */
+
+    .online-games-items {
+        flex-direction: column;
+    }
+
+    .online-games-card {
+        text-align: center;
+    }
+
+    .online-games-card p {
+        margin: 10px 46px;
+        font-size: 18px;
 
     }
 
+    .online-games-title h1 {
+        font-size: 33px;
+    }
+
+    .online-games-title p {
+        font-size: 15px;
+    }
+
+
+
+
+
+    /* PLAY SECTION RESPONSIVE */
+
+    .play-section {
+        flex-direction: column;
+    }
+    .play-image {
+        margin: 27px 0;
+        text-align: center;
+    }
+    
+    .play-image  img {
+        width: 235px;
+        height: auto;
+    }
+    
+    .badge img {
+        width: 32%;
+        position: relative;
+        right: 113px;
+        bottom: 110px;
+    }
+    .play-content {
+        text-align: center;
+        padding: 1rem;
+    }
+    .play-content h2 {
+        font-weight: 700;
+        margin: 12px 0;
+        font-size: 2.5rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* CAREER RESPONSIVE */
+
+    .career-main {
+        flex-direction: column;
+    }
+
+    .career-content {
+        padding: 0 20px;
+    }
+
+    .career-img img {
+        width: 100%;
+    }
+
+    .career-img {
+        margin-right: 0;
+    }
+
+    .career-content p {
+        font-size: 17px;
+
+    }
+
+    .post h5 {
+        font-size: 17px;
+    }
+
+
+    /* CAREER RESPONSIVE END */
+
+
+    /* .game-logo img {
+        width: 31%;
+    }
+
+    .game-items {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+    } */
+
+
+
+
+
+
+
+
+    /* footer section */
+    .footer-menu ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+    }
+
+    .footer-menu-three ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content p {
+        padding: 20px;
+    }
+
+
+
+
+
 }
+
+
+
+
+
 
 
 
@@ -139,12 +293,76 @@
 
         margin-right: 27px;
     }
+
     .gamer-content p {
-       
+
         font-size: 17px;
     }
+
     .gamer-image img {
         width: 414px;
     }
 
+
+
+
+    /* -----------online games responsive------------- */
+
+    .online-games-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        padding: 0 47px;
+    }
+
+    /* -----------online games responsive------------- */
+
+    /* play section */
+    .play-content {
+        padding: 5rem 3rem;
+    }
+    .badge img {
+        width: 44%;
+        position: relative;
+        right: 132px;
+        bottom: 124px;
+    }
+    .mini-img img {
+       
+        height: auto;
+    }
+    .play-image> img {
+        width: 302px;
+        height: auto;
+    }
+    .play-image {
+        margin: 54px 21px;
+        text-align: center;
+    }
+
+
+
+
+    /* play section */
+
+    /* -----------------CARRER RESPONSIVE-------------------- */
+
+    .career-main {
+        flex-direction: column;
+    }
+
+    .career-content {
+        padding: 0 30px;
+    }
+
+
+    .career-img {
+        margin-right: 0;
+    }
+
+
+
+    .footer-content p {
+        padding: 20px;
+    }
 }

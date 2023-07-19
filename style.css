@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1270px;
     margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@ p {
     color: #534C64;
 }
 
-:root {}
+
 
 /* -------------------HEADER CSS START HERE------------------------ */
 header {
@@ -50,12 +50,7 @@ nav {
     color: #0B0223;
 }
 
-.logo h2>span {
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 .menu ul {
     display: flex;
@@ -86,7 +81,7 @@ nav {
     margin-left: -16px;
     margin-top: 4px;
 
-    width: 25px;
+    width: 22px;
 }
 
 /* --------------------HEADER CSS END--------------------------------- */
@@ -126,8 +121,10 @@ nav {
 .banner-content h1 {
     font-size: 78px;
     font-weight: 800;
-
-    color: #c64fce;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
 }
 
@@ -188,7 +185,10 @@ nav {
 }
 
 .gamer-content h2 {
-    color: #c64fce;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 15px;
     font-weight: 800;
     font-size: 39px;
@@ -235,25 +235,252 @@ nav {
     font-weight: 800;
     margin: 11px 0;
     font-size: 40px;
+    font-size: 40px;
 }
 
-.online-games-title p {}
+
 
 .online-games-title span {
-    color: #c64fce;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .online-games-items {
     align-items: center;
     justify-content: center;
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .online-games-card img {
-    width: 303px;
+    width: 312px;
 }
 
-.online-games-card img:hover {
-    opacity: .5;
+.online-games-card p {
+    margin: 10px 6px;
+    font-weight: 500;
+    line-height: 24px;
 }
+
+
+
+/* -------------------------PLAY SECTION CSS---------------------------- */
+
+.play-section {
+    margin-top: 16px;
+    display: flex;
+    
+    
+    justify-content: space-between;
+}
+.play-content {
+    padding: 11rem 9rem;
+}
+.play-image {
+    margin: 58px 0;
+    text-align: center;
+}
+
+.play-image  img {
+    width: 400px;
+    height: auto;
+}
+
+.badge img {
+    width: 50%;
+    position: relative;
+    right: 195px;
+    bottom: 190px;
+}
+
+.play-content h2 {
+    font-weight: 700;
+    margin: 17px 0;
+    font-size: 40px;
+}
+.play-content p {
+    margin-left: 0px;
+    font-size: 18px;
+    line-height: 29px;
+}
+.play-content span{
+    color: #F948B2;
+}
+
+
+/* -------------------------PLAY SECTION CSS END---------------------------- */
+
+
+/* ----------------------------CAREER SECTION CSS START-------------------- */
+
+.career {
+    margin: 80px 0;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.career-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career-img img {
+    width: 732px;
+}
+
+
+.career-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.career-content {}
+
+.career-content h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 33px;
+    margin: 17px 0;
+}
+
+.career-content p {
+    font-size: 17px;
+    color: #ffff;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.post h5 {
+    line-height: 33px;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.location h5 {
+    line-height: 33px;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.career-img {
+    margin-right: -125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------CAREER SECTION CSS END-------------------- */
+
+
+
+
+/* -------------------------GAMES NAME SECTION-------------------------- */
+
+/* 
+.game-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.game-logo {
+    display: flex;
+    padding: 4px 33px;
+    align-items: center;
+}
+
+.game-logo p{
+
+} */
+
+/* -------------------------GAMES NAME SECTION-------------------------- */
+
+
+
+
+
+/* -----------------------------FOOTER SECTION CSS START-----------------------  */
+
+.footer {
+    padding: 70px 0;
+    background-color: #0b0223;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.footer-logo img {
+    width: 60px;
+}
+
+.footer-logo h2 {
+    font-weight: 800;
+    margin-left: 10px;
+    font-size: 33px;
+}
+
+.footer-logo span {
+    color: #ff42a5;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+}
+.footer-menu-three ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu ul li {
+    padding: 22px;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer-menu-three ul {
+    display: flex;
+    color: white;
+    justify-content: center;
+    list-style: none;
+  
+}
+.footer-menu-three ul li {
+    color: #afacb8;
+    padding: 18px;
+    font-size: 15px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+/* -----------------------------FOOTER SECTION CSS END-----------------------  */
