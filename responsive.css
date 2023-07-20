@@ -20,7 +20,7 @@
 
     .banner-content {
         background-image: url('images/Group\ 14.png');
-        padding: 23px 27px;
+        padding: 23px 9px;
     }
 
     .button {
@@ -126,14 +126,26 @@
     .play-section {
         flex-direction: column;
     }
+    .play-section-two {
+        margin-top: -147px;
+        flex-direction: column-reverse;
+    }
 
     .play-image {
         margin-top: 27px;
         text-align: center;
     }
+    .play-image-two {
+        margin-top: 27px;
+        text-align: center;
+    }
 
     .play-image img {
-        width: 235px;
+        width: 276px;
+        height: auto;
+    }
+    .play-image-two img {
+        width: 276px;
         height: auto;
     }
 
@@ -143,8 +155,18 @@
         right: 113px;
         bottom: 110px;
     }
+    .badge-two img {
+        width: 32%;
+        position: relative;
+        left: 118px;
+        bottom: 109px;
+    }
 
     .play-content {
+        text-align: center;
+        padding: 1rem;
+    }
+    .play-content-two {
         text-align: center;
         padding: 1rem;
     }
@@ -154,7 +176,15 @@
         margin: 12px 0;
         font-size: 2.5rem;
     }
+    .play-content-two h2 {
+        font-weight: 700;
+        margin: 12px 0;
+        font-size: 2.5rem;
+    }
 
+
+
+   
     /* ----------------------PLAY SECTION RESPONSIVE------------------------ */
 
 
@@ -166,6 +196,7 @@
     /* -----------------------CAREER RESPONSIVE------------------ */
 
     .career-main {
+        margin-top: -139px;
         flex-direction: column;
     }
 
@@ -250,7 +281,7 @@
 
 
 
-
+/* ---------------TABLET DEVICE RESPONSIVE-------------------------- */
 
 
 @media screen and (min-width:576px) and (max-width: 992px) {
@@ -320,9 +351,18 @@
 
     /* -----------online games responsive------------- */
 
-    /* play section */
+    /*----------------- play section -----------------*/
+
+
+    .play-section-two {
+     
+        margin-top: -171px;
+    }
     .play-content {
         padding: 5rem 3rem;
+    }
+    .play-content-two {
+        padding: 5rem 2rem;
     }
 
     .badge img {
@@ -330,6 +370,12 @@
         position: relative;
         right: 132px;
         bottom: 124px;
+    }
+    .badge-two img {
+        width: 44%;
+        position: relative;
+        left: 132px;
+        bottom: 113px;
     }
 
     .mini-img img {
@@ -341,8 +387,16 @@
         width: 302px;
         height: auto;
     }
+    .play-image-two>img {
+        width: 302px;
+        height: auto;
+    }
 
     .play-image {
+        margin: 54px 21px;
+        text-align: center;
+    }
+    .play-image-two {
         margin: 54px 21px;
         text-align: center;
     }
@@ -355,6 +409,7 @@
     /* -----------------CARRER RESPONSIVE-------------------- */
 
     .career-main {
+        margin-top: -190px;
         flex-direction: column;
     }
 
