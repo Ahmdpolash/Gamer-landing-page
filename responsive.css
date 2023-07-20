@@ -105,16 +105,15 @@
 
     .online-games-card p {
         margin: 10px 46px;
-        font-size: 18px;
-
+        font-size: 16px;
     }
 
     .online-games-title h1 {
-        font-size: 33px;
+        font-size: 32px;
     }
 
     .online-games-title p {
-        font-size: 15px;
+        font-size: 14px;
     }
 
 
@@ -174,12 +173,12 @@
     .play-content h2 {
         font-weight: 700;
         margin: 12px 0;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
     .play-content-two h2 {
         font-weight: 700;
         margin: 12px 0;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
 
@@ -213,7 +212,7 @@
     }
 
     .career-content p {
-        font-size: 17px;
+        font-size: 16px;
 
     }
 
@@ -329,8 +328,7 @@
     }
 
     .gamer-content p {
-
-        font-size: 17px;
+        font-size: .86rem;
     }
 
     .gamer-image img {
